@@ -23,8 +23,13 @@
           wget
           jq
           yq
+          gnumake
+          tree-sitter
         ];
 
         shellHook = ''
           export PS1="(rust-workspace) $PS1"
         '';
+      };
+    };
+}
